@@ -27,5 +27,5 @@ if some_more_knowledge != some_knowledge
   steve.learn(some_more_knowledge)
 end
 
-
+puts "Steve just learned this important knowledge: '#{steve.knowledge[1]}' from Avi"
 
