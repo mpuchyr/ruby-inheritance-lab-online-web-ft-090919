@@ -31,5 +31,9 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge[1]}' from 
 even_more_knowledge = avi.teach
 
 robert = Student.new
-robert
+robert.first_name = "Robert"
+robert.last_name = "Baratheon"
+
+robert.learn(even_more_knowledge)
+puts "Robert just learned this important knowledge: '#{robert.knowledge.first}' from Avi"
 
