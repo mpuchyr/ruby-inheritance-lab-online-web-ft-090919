@@ -29,3 +29,10 @@ end
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge[1]}' from Avi"
 
+even_more_knowledge = avi.teach
+
+robert = Student.new("Robert", "Baratheon")
+robert.learn(even_more_knowledge)
+
+puts "#{robert.first_name} just learn this knowledge: '#{robert.knowledge.first}' from Avi"
+
