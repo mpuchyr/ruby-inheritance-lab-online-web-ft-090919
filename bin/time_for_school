@@ -30,5 +30,6 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge[1]}' from 
 
 even_more_knowledge = avi.teach
 
-
+robert = Student.new
+robert
 
