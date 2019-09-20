@@ -34,5 +34,5 @@ even_more_knowledge = avi.teach
 robert = Student.new("Robert", "Baratheon")
 robert.learn(even_more_knowledge)
 
-puts "#{robert.first_name} just learn this knowledge: '#{robert.knowledge.first}' from Avi"
+puts "Robert just learned this knowledge: '#{robert.knowledge.first}' from Avi"
 
