@@ -19,5 +19,13 @@ steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-jim = User.new("Jim", "Davis")
-jim.learn(some_knowledge)
+# jim = User.new("Jim", "Davis")
+# jim.learn(some_knowledge)
+
+some_more_knowledge = avi.teach
+if some_more_knowledge != some_knowledge
+  steve.learn(some_more_knowledge)
+end
+
+
+
